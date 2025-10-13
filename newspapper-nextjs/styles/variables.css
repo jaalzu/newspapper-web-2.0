@@ -1,0 +1,18 @@
+:root {
+  /* Colores */
+  --color-primary: #1f1f1f;
+  --color-accent: #e63946;
+  --color-text: #333333;
+  --color-links: #170cee;
+  --color-text-light: #777777;
+  --color-bg: #fff4f4;
+
+  --font-heading: 'Cormorant Garamond', serif;
+  --font-body: 'Lora', serif;
+
+  /* Grosor */
+  --font-normal: 400;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-extrabold: 800;
+}

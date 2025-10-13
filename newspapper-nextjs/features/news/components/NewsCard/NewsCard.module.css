@@ -1,0 +1,12 @@
+.card {
+  transition: box-shadow 0.2s ease;
+}
+
+.card:hover .title {
+  text-decoration: underline 2px;
+}
+
+.title {
+  transition: text-decoration 0.2s ease;
+  line-height: 1.2;
+}
