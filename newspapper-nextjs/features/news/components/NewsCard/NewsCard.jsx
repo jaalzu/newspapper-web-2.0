@@ -1,8 +1,6 @@
 import styles from './NewsCard.module.css';
-import { useFavoritesContext } from '../../../favoritesNews/useFavoritesContext';
 
 export default function NewsCard({ article, compact }) {
-  const { toggle, isFavorite } = useFavoritesContext();
 
   const handleFavorite = (e) => {
     e.preventDefault();
@@ -21,7 +19,6 @@ export default function NewsCard({ article, compact }) {
         onClick={handleFavorite}
         className="absolute top-4 right-4 z-10 text-2xl"
       >
-        {isFavorite(article.link) ? '❤️' : '🤍'}
       </button>
 
       {article.image_url && (
