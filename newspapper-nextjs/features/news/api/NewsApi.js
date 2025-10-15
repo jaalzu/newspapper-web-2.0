@@ -12,7 +12,6 @@ export async function fetchNews(params = {}) {
     let url = `https://newsdata.io/api/1/news?apikey=${apiKey}&country=${params.country || 'us'}`;
     if (params.category) url += `&category=${params.category}`;
     if (params.q) url += `&q=${params.q}`;
-console.log('News API URL:', url);
 
     // 🔹 Timeout opcional (8 segundos)
     const controller = new AbortController();

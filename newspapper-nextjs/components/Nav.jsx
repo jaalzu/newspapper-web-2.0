@@ -9,12 +9,12 @@ import styles from './Nav.module.css'
 export default function NewsHeader() {
   const sections = [
     { name: "Mundo", href: "/mundo" },
-    { name: "Economía", href: "/economia" },
-    { name: "Deportes", href: "/deportes" },
-    { name: "Cultura", href: "/cultura" },
-    { name: "Ciencia", href: "/ciencia" },
-    { name: "Opinión", href: "/opinion" },
-    { name: "Favoritos", href: "/favoritos" },
+    { name: "Economía", href: "/news/economia" },
+    { name: "Deportes", href: "/news/deportes" },
+    { name: "Cultura", href: "/news/cultura" },
+    { name: "Ciencia", href: "/news/ciencia" },
+    { name: "Opinión", href: "/news/opinion" },
+    // { name: "Favoritos", href: "favoritos" },
   ]
 
   const [menuOpen, setMenuOpen] = useState(false)
